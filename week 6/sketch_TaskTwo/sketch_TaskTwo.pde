@@ -11,9 +11,8 @@ String myYears = " years old"; //2b
 int myAge = 28; //2b
 boolean myMood = true; //2c
 
-void setup ()
-{
-  size(500, 500);
+void setup (){
+  size(100, 100);
   background(255);
 
   println(myName); //2a
@@ -30,3 +29,5 @@ void setup ()
 
 void draw() {
 }
+
+//check print result in "console" window
