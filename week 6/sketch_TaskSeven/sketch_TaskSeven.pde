@@ -10,16 +10,16 @@ Assigment 7
 int input = 20; //7a - change value here to check with different numbers
 
 
-for (int num=0; input>=num; num++){ //7b
-  if (num==6){ 
+for (int num = 0; input >= num; num++){ //7b
+  if (num == 6){ 
     print(" " + "six"); 
   }
-    else if (num==input/2){
+    else if (num == input/2){
     print(" " + "HALF!");
     } 
     
-    else if (num==input-2){ //change value here for another number 
-    print(" " + "HELLO!");
+    else if (num == input-2){ //change value here for another number 
+    print(" " + "HELLO!"); //change text here if you want
     } else print(" " + num);
 }
 
