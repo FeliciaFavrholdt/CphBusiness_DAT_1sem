@@ -53,6 +53,8 @@ void draw()
   ellipse(posX, posY-80-spacing, sizeX, sizeY);    
     count++;
   } else if (count%4==1){
+  fill(red);
+  ellipse(posX, posY-80-spacing, sizeX, sizeY); 
   fill(yellow);
   ellipse(posX, posY, sizeX, sizeY);    
     count++;
@@ -60,9 +62,11 @@ void draw()
     fill(green);
     ellipse(posX, posY+80+spacing, sizeX, sizeY);  
     count++;
-  }else{
+  }else {
     fill(yellow);
     ellipse(posX, posY, sizeX, sizeY);
+    fill(green);
+    ellipse(posX, posY+80+spacing, sizeX, sizeY); 
     count++;
   }
 }
