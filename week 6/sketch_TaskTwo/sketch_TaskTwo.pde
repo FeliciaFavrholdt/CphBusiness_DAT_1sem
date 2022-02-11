@@ -4,6 +4,7 @@
  2c) store whether or not you are happy right now, as a boolean (true for happy, false for sad).
  2d) using the above variables print the following message: "Hi, my name is <name>", "I am <age> years old", "I <dont> clap my hands"
  where the <> refers to variables. The last variable (<dont>) is only to be printed if the happy boolean is false */
+//note: Java is strong-typed
 
 //Index Variables
 String myName = "Felicia Favrholdt"; //2a
