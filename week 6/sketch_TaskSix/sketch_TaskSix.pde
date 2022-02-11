@@ -11,6 +11,7 @@ int sum = a+b;
 int x = 14;
 int y = 7;
 int z = 9;
+int v = 10;
 String result = "";
 
 void setup()
@@ -38,7 +39,7 @@ println(result);
   //6b
   if (x + y + z == 30) 
   {
-    if((x % 10!= 0) && (y % 10!= 0) && (z % 10 != 0) //added nested if + modulos values
+    if((x % v!= 0) && (y % v!= 0) && (z % v != 0)) //added nested if + modulos values
     print("Success!"); //change int x,y,z get a failure output;
   } else
     {
