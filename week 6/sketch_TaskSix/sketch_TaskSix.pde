@@ -7,20 +7,33 @@ Assignment 6
 
 int a;
 int b;
+int sum = a+b;
 int x = 14;
 int y = 7;
 int z = 9;
+String result = "";
 
 void setup()
 {
 //6a
-  if (a == 10 && b == 10 || a+b == 10 )
+  if (a == 10 && b == 10 || sum == 10 )
   {
     print("Success!"); //set int a = 10; to get a success output.
   } else
     {
       println("Failure!");
     }
+
+// alternative 
+  if (a == 10 && b == 10 || a+b == 10 )
+  {
+    result = "succes";
+    } else 
+    {
+      result = "failure";
+    } 
+println(result);
+
 
   //6b
   if (x + y + z == 30 )
