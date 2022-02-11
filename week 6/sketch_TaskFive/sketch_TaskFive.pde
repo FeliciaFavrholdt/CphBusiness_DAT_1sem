@@ -29,15 +29,12 @@ void setup()
  
  
  
- 
- 
- 
- 
+
  
 
 // ************* SOLUTIONS BELOW - uncomment them to check for output ***************
 
-//SOLUTION 1 - "i is greater than 10."
+//SOLUTION 1 - "i is greater than 10." - global scope
 
 void MethodOne()
 {
@@ -52,7 +49,7 @@ void MethodOne()
 }
 
 /* 
-//SOLUTION 2 - "i is greater than 10."
+//SOLUTION 2 - "i is greater than 10." - local scope
 void MethodOne()
 {
   int i = 1000; // You are not allowed to change this line.
@@ -66,7 +63,7 @@ void MethodOne()
 }
 
 
-// SOLUTION 3 - "i is greater than 10."
+// SOLUTION 3 - "i is greater than 10." - no variable 
 void MethodOne()
 {
   int i = 1000;
