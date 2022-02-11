@@ -36,8 +36,9 @@ println(result);
 
 
   //6b
-  if (x + y + z == 30 )
+  if (x + y + z == 30) 
   {
+    if((x % 10!= 0) && (y % 10!= 0) && (z % 10 != 0) //added nested if + modulos values
     print("Success!"); //change int x,y,z get a failure output;
   } else
     {
