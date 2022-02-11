@@ -31,5 +31,3 @@ void draw() {
 }
 
 //check print result in "console" window
-
-//just adding a comment to test
