@@ -2,7 +2,7 @@
 
 // INSTRUCTIONS & ABOUT
 /* This game is about moving blocks around - based on the game Rush Hour Blocks. 
-Make the red block leave the maze by moving the other blocks. */ 
+Make the white block leave the maze by moving the other blocks. */ 
 
 //import soundfile
 import processing.sound.*;
