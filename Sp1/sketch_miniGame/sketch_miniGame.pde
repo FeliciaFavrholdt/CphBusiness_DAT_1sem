@@ -39,7 +39,7 @@ int boxSize = 600;
 boolean overBlock = false; 
 boolean onBlock = false;
 float xOffset = 0.0; 
-float yOffset = 0.0; 
+float yOffset = .0; 
 
 // define color array   
 color[] colorList = new color[8];
@@ -51,8 +51,8 @@ public void settings(){
 // main - all static variables here
 public void setup() { 
   
-  b = width/2.0; 
-  n = height/2.0; 
+  b = posX/2; 
+  n = posY/2; 
   
   addColorToArray();
   
@@ -127,7 +127,7 @@ public void mousePressed() {
 
 
 public void mouseDragged() {
-    if(onBlock) {
+    if(onBlock == false) {
     b = mouseX-xOffset;
     n = mouseY-yOffset;
   }

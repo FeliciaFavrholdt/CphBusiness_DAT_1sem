@@ -29,8 +29,11 @@ class Blocks {
     
     public void move() {
     x = x + speed;
-      if (x > w) {
+      if (x >= w) {
       x += 0;
+      println("something moves");
+      } else {
+        println("not working");
       }
     }  
 }
