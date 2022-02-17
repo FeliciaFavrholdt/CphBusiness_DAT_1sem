@@ -1,6 +1,6 @@
 public void loadIntro() {
   fill(0);
-  rect(posX, posY, width, height);
+  rect(posX, posY, posX, posY);
 }
 
 public void loadBackground() {
@@ -12,19 +12,23 @@ public void loadBackground() {
 }
 
 public void loadMusicIcon() {
+  int d = 50;
+  
   music = loadImage("music.png");
   
-  image(music, 800, 550, 50, 50); // loads music icon
+  image(music, 800, 550, d, d); // loads music icon
 }
 
 public void loadGamelvl(){  
+  int e = 300;
+  
   rectMode(CENTER); //set rectangles to center mode
   strokeWeight(10); //makes stroke thicker
   stroke(0); //adds black stroke
 
   fill(0); // inserts fill colour from color variables
-  rect(posX/2-150, posY/2, 600, 600); //size of left box
-  rect(posX/2+300, posY/2, 300, 600); //size of right box
+  rect(posX/2-150, posY/2, e*2, e*2); //size of left box
+  rect(posX/2+300, posY/2, e, e*2); //size of right box
 }
 
 public void loadFont() {
