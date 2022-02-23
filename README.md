@@ -1,6 +1,4 @@
-
-A place to store all tasks from 1. semester 
-
+My first readme here. 
 
 Mainly learning environment and school purpose projects 
 
