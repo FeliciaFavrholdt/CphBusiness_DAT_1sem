@@ -15,18 +15,18 @@ public class Main {
     }
 
     public static void emptyLine() {
-        System.out.println(" ");
+        System.out.println(" "); //this prints out an empty line
     }
 
     public static void recieveString() {
         String s = "This is a string.";
-        System.out.println(s);
+        System.out.println(s); 
     }
 
     public static void nameAge() {
         String name = "Felicia";
         int age = 28; 
 
-        System.out.println("My name is " + name + ". I am " + age + " years old");
+        System.out.println("My name is " + name + " I am " + age + " years old"); 
     }
 }
