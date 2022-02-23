@@ -10,23 +10,19 @@ public class Main {
     public static void main(String[] args) {
 
         emptyLine();
-        recieveString();
-        nameAge();
+        recieveString("This is a string.");
+        nameAge("Felicia", 28);
     }
 
     public static void emptyLine() {
         System.out.println(" "); //this prints out an empty line
     }
 
-    public static void recieveString() {
-        String s = "This is a string.";
+    public static void recieveString(String s) {
         System.out.println(s); 
     }
 
-    public static void nameAge() {
-        String name = "Felicia";
-        int age = 28; 
-
+    public static void nameAge(String name, int age) {
         System.out.println("My name is " + name + " I am " + age + " years old"); 
     }
 }
